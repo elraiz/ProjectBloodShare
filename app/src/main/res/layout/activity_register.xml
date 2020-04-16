@@ -11,23 +11,24 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:paddingHorizontal="30dp"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp">
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="5dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp">
 
             <EditText
                 android:id="@+id/edttext_registernama"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="36dp"
+                android:layout_marginTop="20dp"
                 android:ems="10"
-                android:inputType="textPersonName"
-                android:hint="Username" />
+                android:hint="@string/username"
+                android:inputType="textPersonName" />
 
             <EditText
                 android:id="@+id/edttext_regiteremail"
@@ -35,137 +36,138 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:ems="10"
-                android:inputType="textEmailAddress"
-                android:hint="E-Mail"
-                />
+                android:hint="@string/mail"
+                android:inputType="textEmailAddress" />
 
             <EditText
                 android:id="@+id/edttext_registernomor"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
                 android:layout_marginTop="10dp"
-                android:hint="Phone Number"
+                android:ems="10"
+                android:hint="@string/number"
                 android:inputType="number" />
 
             <RadioGroup
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginTop="10dp">
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
 
                 <RadioButton
                     android:id="@+id/rd_registermale"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Male" />
+                    android:text="@string/male" />
 
                 <RadioButton
                     android:id="@+id/rd_registerfemale"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Female" />
+                    android:text="@string/female" />
             </RadioGroup>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal"
-                android:layout_marginTop="10dp">
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
                 <Spinner
                     android:id="@+id/spn_registerdarah"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    />
+                    android:layout_weight="1" />
+
                 <Spinner
                     android:id="@+id/spn_registerresus"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    />
+                    android:layout_weight="1" />
             </LinearLayout>
 
             <EditText
                 android:id="@+id/edttext_registerpass"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Password"
-                android:ems="10"
                 android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="@string/password"
                 android:inputType="textPassword" />
 
             <EditText
                 android:id="@+id/edttext_registerpassul"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Retype Password"
-                android:ems="10"
                 android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="@string/repass"
                 android:inputType="textPassword" />
 
             <RadioGroup
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal"
-                android:layout_marginTop="10dp">
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
 
                 <RadioButton
                     android:id="@+id/radioButton3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Personal" />
+                    android:text="@string/pers" />
 
                 <RadioButton
                     android:id="@+id/radioButton4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Organization" />
+                    android:text="@string/org" />
             </RadioGroup>
+
             <Spinner
                 android:id="@+id/spn_registerkerja"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"/>
+                android:layout_marginTop="10dp" />
 
             <EditText
                 android:id="@+id/edttext_registeralamat"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
                 android:layout_marginTop="10dp"
-                android:hint="Home Address"
-                android:inputType="textPersonName"/>
+                android:ems="10"
+                android:hint="@string/home"
+                android:inputType="textPersonName" />
 
             <EditText
                 android:id="@+id/edttext_registerlokasi"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
                 android:layout_marginTop="10dp"
-                android:hint="Default Location"
-                android:inputType="textPersonName"/>
+                android:ems="10"
+                android:hint="@string/loc"
+                android:inputType="textPersonName" />
 
             <CheckBox
                 android:id="@+id/checkBox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:textSize="18sp"
+                android:layout_marginTop="20dp"
+                android:text="@string/agree"
                 android:textColor="@color/colorfontdesc"
-                android:text="Agree with Terms and Condition" />
+                android:textSize="18sp" />
 
             <Button
                 android:id="@+id/btn_register"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
                 android:background="@drawable/custombutton2"
-                android:layout_marginTop="10dp"
-                android:text="Register" />
+                android:text="@string/register" />
         </LinearLayout>
     </ScrollView>
 

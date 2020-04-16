@@ -1,3 +1,29 @@
 <resources>
     <string name="app_name">ProjectBloodShare</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="Login">Login</string>
+    <string name="verify">Verify</string>
+    <string name="connect">Connect with Facebook</string>
+    <string name="or">OR</string>
+    <string name="registerchoice">"Doesn't Have Account? Register"</string>
+    <string name="imgdesc">Home Logo</string>
+    <string name="mail">E-Mail</string>
+    <string name="number">Phone Number</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="repass">Retype Password</string>
+    <string name="almost">Almost There</string>
+    <string name="thanks">Thank you for registering with us. One more step, you need to check your email to activate your account</string>
+    <string name="pers">Personal</string>
+    <string name="org">Organization</string>
+    <string name="home">Home Address</string>
+    <string name="loc">Default Location</string>
+    <string name="register">Register</string>
+    <string name="agree">Agree with Terms and Condition</string>
+    <string name="send">Send</string>
+    <string name="veracc">Verify your Account</string>
+    <string name="checkmail">We have send verification code on your e-mail</string>
+    <string name="codehint">enter your verification code here</string>
+    <string name="resend">"Doesn't get the code? Resend"</string>
 </resources>
