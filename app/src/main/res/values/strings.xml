@@ -24,6 +24,28 @@
     <string name="send">Send</string>
     <string name="veracc">Verify your Account</string>
     <string name="checkmail">We have send verification code on your e-mail</string>
-    <string name="codehint">enter your verification code here</string>
+    <string name="codehint">Enter your verification code here</string>
     <string name="resend">"Doesn't get the code? Resend"</string>
+    <string name="blood">Blood Type</string>
+    <string name="res">Reshus</string>
+    <string-array name="bloodtype">
+        <item>Blood Type</item>
+        <item>A</item>
+        <item>B</item>
+        <item>AB</item>
+        <item>O</item>
+    </string-array>
+    <string-array name="reshus">
+        <item>Reshus</item>
+        <item>+</item>
+        <item>-</item>
+    </string-array>
+    <string-array name="kerja">
+        <item>Work</item>
+        <item>Accountant</item>
+        <item>Writer</item>
+        <item>Doctor</item>
+        <item>Business</item>
+        <item>Other</item>
+    </string-array>
 </resources>
