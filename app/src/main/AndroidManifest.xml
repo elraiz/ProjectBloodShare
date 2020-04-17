@@ -9,10 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".verify" android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".hampir" android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".register" />
-        <activity android:name=".MainActivity" android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".profil" android:theme="@style/AppTheme.NoActionBarTwo"></activity>
+        <activity
+            android:name=".verify"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".hampir"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".register" android:theme="@style/AppTheme.NoActionBarTwo"/>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

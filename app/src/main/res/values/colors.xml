@@ -10,4 +10,6 @@
     <color name="colorfontdesc">#808284</color>
     <color name="colorbackground">#ffffff</color>
     <color name="colorbackgroundinvite">#f1f1f2</color>
+    <color name="colorblack">#252525</color>
+    <color name="colorultralightblue">#82d3f6</color>
 </resources>

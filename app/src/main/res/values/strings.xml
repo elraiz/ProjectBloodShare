@@ -6,7 +6,7 @@
     <string name="verify">Verify</string>
     <string name="connect">Connect with Facebook</string>
     <string name="or">OR</string>
-    <string name="registerchoice">"Doesn't Have Account? Register"</string>
+    <string name="registerchoice">"Doesn't Have Account?"</string>
     <string name="imgdesc">Home Logo</string>
     <string name="mail">E-Mail</string>
     <string name="number">Phone Number</string>
@@ -48,4 +48,20 @@
         <item>Business</item>
         <item>Other</item>
     </string-array>
+    <string name="namaprofil">Muhamad El Raiz</string>
+    <string name="tipedarahprofil">Blood Type : AB+</string>
+    <string name="beri">115</string>
+    <string name="terima">200</string>
+    <string name="makasih">480</string>
+    <string name="give">BLOOD GIVE</string>
+    <string name="received">BLOOD RECEIVED</string>
+    <string name="thanks2">THANKS</string>
+    <string name="cari">Search Donor</string>
+    <string name="search">Search donor near you</string>
+    <string name="butuh">Blood Needed</string>
+    <string name="needed">5 Users need blood</string>
+    <string name="pesan">Message</string>
+    <string name="message">15 New messages</string>
+    <string name="sejarah">Donor History</string>
+    <string name="history">10 Gives, 5 Received</string>
 </resources>
