@@ -5,7 +5,13 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ArrayAdapter
 import android.widget.Button
+import android.widget.ImageButton
 import android.widget.Spinner
+
+//NIM   10117163
+//Nama  Muhamad El Raiz
+//Kelas IF5
+//Tanggal Pengerjaan : 15 & 16 April 2020
 
 class register : AppCompatActivity() {
 
@@ -55,6 +61,12 @@ class register : AppCompatActivity() {
         val button = findViewById<Button>(R.id.btn_register)
         button.setOnClickListener{
             val intent = Intent(this,hampir::class.java)
+            startActivity(intent)
+        }
+
+        val buttonback = findViewById<ImageButton>(R.id.btn_registerback)
+        buttonback.setOnClickListener{
+            val intent = Intent(this,MainActivity::class.java)
             startActivity(intent)
         }
     }

@@ -6,7 +6,7 @@
     <string name="verify">Verify</string>
     <string name="connect">Connect with Facebook</string>
     <string name="or">OR</string>
-    <string name="registerchoice">"Doesn't Have Account?"</string>
+    <string name="registerchoice">"Doesn't Have Account? "</string>
     <string name="imgdesc">Home Logo</string>
     <string name="mail">E-Mail</string>
     <string name="number">Phone Number</string>
@@ -24,8 +24,9 @@
     <string name="send">Send</string>
     <string name="veracc">Verify your Account</string>
     <string name="checkmail">We have send verification code on your e-mail</string>
-    <string name="codehint">Enter your verification code here</string>
-    <string name="resend">"Doesn't get the code? Resend"</string>
+    <string name="codehint">"Enter your verification code here..."</string>
+    <string name="resend">"Doesn't get the code? "</string>
+    <string name="resendtwo">Resend</string>
     <string name="blood">Blood Type</string>
     <string name="res">Reshus</string>
     <string-array name="bloodtype">
@@ -64,4 +65,6 @@
     <string name="message">15 New messages</string>
     <string name="sejarah">Donor History</string>
     <string name="history">10 Gives, 5 Received</string>
+    <string name="header">Header</string>
+    <string name="backbtn">Back Button</string>
 </resources>
